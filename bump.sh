@@ -37,6 +37,8 @@ echo $new
 
 yq w -i pubspec.yaml version $new
 
+echo $(cat pubspec.yaml)
+
 git config --local user.email "resideo.machine@resideo.com"
 git config --local user.name "Pubspec Bump"
 
