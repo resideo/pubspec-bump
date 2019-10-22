@@ -23,4 +23,4 @@ then
     echo "No tag to sync pubspec with"
 fi
 
-yq w -i pubspec.yaml version $tag
+yaml w -i pubspec.yaml version $tag
