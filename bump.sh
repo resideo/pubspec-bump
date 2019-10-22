@@ -24,3 +24,10 @@ then
 fi
 
 yq w -i pubspec.yaml version $tag
+
+git config --local user.email "resideo.machine@resideo.com"
+git config --local user.name "Pubspec Bump"
+
+git add pubspec.yaml
+
+git commit -m "Add pubspec version bump"
