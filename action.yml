@@ -1,0 +1,12 @@
+name: 'Pubspec Bump'
+description: 'Update a pubspec version'
+author: 'Resideo'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+inputs:
+  new_version:
+    description: 'Version to set the pubspec to'
+branding:
+  icon: 'git-merge'  
+  color: 'purple'
