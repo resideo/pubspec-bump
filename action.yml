@@ -7,6 +7,7 @@ runs:
 inputs:
   new_version:
     description: 'Version to set the pubspec to'
+    required: false
 branding:
   icon: 'git-merge'  
   color: 'purple'
